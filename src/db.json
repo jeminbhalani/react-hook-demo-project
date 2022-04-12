@@ -1,0 +1,284 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "phone": "999999999999",
+      "website": "hildegard.org",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      },
+      "company": {
+        "name": "Romaguera-krona"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "phone": "999999999999",
+      "website": "anastasia.net",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771"
+      },
+      "company": {
+        "name": "Deckow-Crist"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157"
+      },
+      "phone": "91-9999999999",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257"
+      },
+      "phone": "493-170-9623 156",
+      "website": "kale.biz",
+      "company": {
+        "name": "Robel-Corkery"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca",
+      "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263"
+      },
+      "phone": "254954-1289",
+      "website": "demarco.info",
+      "company": {
+        "name": "Keebler LLC"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337"
+      },
+      "phone": "1-477-935-8478 6430",
+      "website": "ola.org",
+      "company": {
+        "name": "Considine-Lockman"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804-1099"
+      },
+      "phone": "210-067-6132",
+      "website": "elvis.io",
+      "company": {
+        "name": "Johns Group"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169"
+      },
+      "phone": "586-493-6943 140",
+      "website": "jacynthe.com",
+      "company": {
+        "name": "Abernathy Group"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109"
+      },
+      "phone": "775976-6794 41206",
+      "website": "conrad.com",
+      "company": {
+        "name": "Yost and Sons"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz",
+      "address": {
+        "street": "Kattie Turnpike",
+        "suite": "Suite 198",
+        "city": "Lebsackbury",
+        "zipcode": "31428-2261"
+      },
+      "phone": "024-648-3804",
+      "website": "ambrose.net",
+      "company": {
+        "name": "Hoeger LLC"
+      }
+    },
+    {
+      "name": "jemin",
+      "username": "bhalani",
+      "email": "jmnbhalani@gmail.com",
+      "phone": "9099989796",
+      "website": "scriptUs.in",
+      "address": {
+        "street": "royal square",
+        "suite": "suite",
+        "city": "surat",
+        "zipcode": "395006"
+      },
+      "company": {
+        "name": "scriptus"
+      },
+      "id": 11
+    },
+    {
+      "name": "karan",
+      "username": "vaghela",
+      "email": "kv@gmail.com",
+      "phone": "9099989796",
+      "website": "karar.com",
+      "address": {
+        "street": "royal square",
+        "suite": "bhavanagar",
+        "city": "surat",
+        "zipcode": "395006"
+      },
+      "company": {
+        "name": "KARAN"
+      },
+      "id": 16
+    },
+    {
+      "id": 17,
+      "name": "yash",
+      "username": "bhungaliya",
+      "email": "yashbhungaliya@gmail.com",
+      "phone": "9099989796",
+      "website": "yes.in",
+      "address": {
+        "street": "noroyal square",
+        "suite": "yes",
+        "city": "surat",
+        "zipcode": "395006"
+      },
+      "company": {
+        "name": "brand"
+      }
+    },
+    {
+      "name": "bhavya",
+      "username": "soliya",
+      "email": "bhavyasoliya@gmail.com",
+      "phone": "9099989796",
+      "website": "bhavya.in",
+      "address": {
+        "street": "rajkot",
+        "suite": "bhavya",
+        "city": "rajkot",
+        "zipcode": "395006"
+      },
+      "company": {
+        "name": "soliya"
+      },
+      "id": 18
+    }
+  ],
+  "signUp": [
+    {
+      "firstName": "jemin",
+      "lastName": "bhalani",
+      "email": "jmnbhala@gmail.com",
+      "id": 1,
+      "password": "jemin@123",
+      "confirmpassword": "jemin@123"
+    },
+    {
+      "firstName": "vimal",
+      "lastName": "bhalani",
+      "email": "vimalbhalani22@yahoo.com",
+      "password": "vimal@123",
+      "confirmpassword": "vimal@123",
+      "id": 2
+    },
+    {
+      "firstName": "yash",
+      "lastName": "bhungliya",
+      "email": "yashbhngaliya@gmail.com",
+      "id": 3,
+      "password": "yash@123",
+      "confirmpassword": "yash@123"
+    },
+    {
+      "firstName": "karan",
+      "lastName": "vaghela",
+      "email": "kv@gmail.com",
+      "password": "karan@123",
+      "confirmpassword": "karan@123",
+      "id": 4
+    },
+    {
+      "firstName": "bhavy",
+      "lastName": "soliya",
+      "email": "bs@gmail.com",
+      "password": "bhavy@123",
+      "confirmpassword": "bhavy@123",
+      "id": 5
+    }
+  ]
+}
