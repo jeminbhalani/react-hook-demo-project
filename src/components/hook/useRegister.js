@@ -1,31 +1,35 @@
-import axios from 'axios'
-import { useContext } from 'react'
-import { RegisterContext } from '../context/register.context'
+import { ApiGetMethod, ApiPostMethod, ApiPutMethod } from "ApiHelper";
+import { useRegisterContext } from "components/context/registerContext/RegisterContainer";
 
 export function useRegister() {
-    const context = useContext(RegisterContext)
+  const context = useRegisterContext();
 
-    if (context === undefined) {
-        throw new Error('useUser must be used within a UserProvider')
-    }
-    const { registerData, setRegisterData,forgotEmail,setForgotEmail } = context
+  if (context === undefined) {
+    throw new Error("useUser must be used within a UserProvider");
+  }
+  const { registerData, setRegisterData, forgotEmail, setForgotEmail } =
+    context;
 
+  const fetchRegisterData = () => {
+    ApiGetMethod("signUp").then((resp) => {
+      setRegisterData(resp.data);
+    });
+  };
 
-    const fetchRegisterData = () => {
-        axios.get("http://localhost:3000/signUp").then(resp => {
-            setRegisterData(resp.data)
-        })
-    }
+  const addRegisterData = (payload) => {
+    ApiPostMethod("signUp", payload).then(fetchRegisterData);
+  };
 
-    const addRegisterData = (payload) => {
-        axios.post("http://localhost:3000/signUp", payload).then(fetchRegisterData)
-    }
+  const editForgotPassword = (payload) => {
+    ApiPutMethod(`signUp/${payload.id}`, payload).then(fetchRegisterData);
+  };
 
-    const editForgotPassword = (payload) => {
-        axios.put(`http://localhost:3000/signUp/${payload.id}`, payload).then(fetchRegisterData)
-    }
-
-    return {
-        registerData, setRegisterData, addRegisterData,editForgotPassword,forgotEmail,setForgotEmail
-    }
+  return {
+    registerData,
+    setRegisterData,
+    addRegisterData,
+    editForgotPassword,
+    forgotEmail,
+    setForgotEmail,
+  };
 }
